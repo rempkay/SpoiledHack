@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Spoiled Hack",
+  "description": "Activate this extension to surf the internet spoiler-free!",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Click here to go spoiler-free!"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
