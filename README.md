@@ -1,4 +1,4 @@
-, I've created a new branch:- phase1. Please push you code to that first, and once everything's working fine, we'll merge it with the master branch.
+Guys, I've created a new branch:- phase1. Please push you code to that first, and once everything's working fine, we'll merge it with the master branch.
 To shift branches, simply do this on the terminal:
 git checkout phase1
 
