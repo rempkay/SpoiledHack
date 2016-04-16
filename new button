@@ -1,0 +1,15 @@
+<html>
+<head>
+    <script type="text/javascript">
+        function blockOutCharacters() {array}
+    </script>
+</head>
+<body>
+    <button type = "button">Hunger Games</button>
+    	<button onclick="search(), array();">
+
+
+<button type = "button">Deactivate</button>
+    	<button onclick="break">
+</body>
+</html>
