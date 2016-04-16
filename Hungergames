@@ -1,0 +1,19 @@
+<html>
+<head>
+    <script type="text/javascript">
+        function blockOutCharacters() {array}
+    </script>
+</head>
+<body>
+    <button type = "button">Hunger Games</button>
+    myobject = {
+    "Hunger Games" : ["an", "array", "of", "words"]
+	};
+    <button onclick="myobject">
+    	
+		
+
+<button type = "button">Deactivate</button>
+    	<button onclick="break">
+</body>
+</html>
