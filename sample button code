@@ -1,0 +1,6 @@
+$('#hunger').on('click',function(){
+	$('span').css({
+        'background-color': 'black',
+        'color': 'black'
+    });
+});
