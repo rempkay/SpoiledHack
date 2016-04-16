@@ -1,17 +1,38 @@
 <html>
 <head>
     <script type="text/javascript">
-        function blockOutCharacters() {array}
+    myobject = {
+    "HungerGames" : ["an", "array", "of", "words"],
+    "Foxface" : ["an", "array", "of", "words"],
+    "Rue" : ["an", "array", "of", "words"],
+    "Glimmer" : ["an", "array", "of", "words"],
+    "Marvel" : ["an", "array", "of", "words"],
+    "Thresh" : ["an", "array", "of", "words"],
+    "Seneca" : ["an", "array", "of", "words"],
+    "Cato" : ["an", "array", "of", "words"],
+    "Mags" : ["an", "array", "of", "words"], 
+    "Clove" : ["an", "array", "of", "words"],
+    "Cinna" : ["an", "array", "of", "words"],
+    "Cashmere" : ["an", "array", "of", "words"],
+    "Gloss" : ["an", "array", "of", "words"],
+    "Boggs" : ["an", "array", "of", "words"],
+    "Jackson" : ["an", "array", "of", "words"],
+    "Castor" : ["an", "array", "of", "words"],
+    "Homes" : ["an", "array", "of", "words"],
+    "Messalla" : ["an", "array", "of", "words"],
+    "Prim" : ["an", "array", "of", "words"],
+    "Primrose" : ["an", "array", "of", "words"],
+    "Coin" : ["an", "array", "of", "words"],
+    "Snow" : ["an", "array", "of", "words"],
+    "Finnick" : ["an", "array", "of", "words"]  
+	};
+        function blockOutCharacters() {myobject}
     </script>
 </head>
 <body>
     <button type = "button">Hunger Games</button>
-    myobject = {
-    "Hunger Games" : ["an", "array", "of", "words"]
-	};
     <button onclick="myobject">
-    	
-		
+    return ("HungerGames")
 
 <button type = "button">Deactivate</button>
     	<button onclick="break">
