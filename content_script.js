@@ -4,6 +4,7 @@
 	// get innerHTML
 	// replace innerHTML with replaced version of html
 	
+	// random keywords to be changed
         var keywords = ["an", "array", "of", "words"];
 
  	var body = document.querySelector("<body>");
