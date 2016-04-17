@@ -5,7 +5,11 @@
 	// replace innerHTML with replaced version of html
 	
 	// random keywords to be changed
-        var keywords = ["an", "array", "of", "words"];
+	var myobject = {
+        "Hunger Games" : ["an", "array", "of", "words"]
+        };
+        
+        var keywords =  myobject["Hunger Games"];
 
  	var body = document.querySelector("<body>");
  	var bodyHTML = body.innerHTML;
