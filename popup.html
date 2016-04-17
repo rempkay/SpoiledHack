@@ -9,12 +9,35 @@
     <title>SpoiledHack Popup</title>
     <style>
     
-
-      .show {display:block;}
+      .redact{
+        background-color: black;
+        color: black;
+      }
+      button{
+        border-radius: 8px;
+        border: none;
+        padding: 15px 32px;
+        text-align: center;
+        font-size: 16px;
+        margin: 0 auto;
+        width: 75%;
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+      }
+      #hunger{
+        margin-top: 1em;
+        background-color: green;
+        color: white;
+      }
+      #deactivate{
+        background-color: red;
+        color: white;
+      }
 
       body {
         font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
         font-size: 100%;
+        line-height: 0em;
       }
       #status {
         /* avoid an excessively wide status text */
@@ -24,18 +47,33 @@
         max-width: 500px;
       }
     </style>
-    <!--<script src="popup.js"></script>-->
+
+
+    <!--<script>
+    <script src="backgroundScript.js"></script>
+    </script>-->
+    
   </head>
   <body>
-
+  
     <div id="status">
-      <p>Do you want to go spoiler-free? Select a movie to browse spoiler-free!</p>
+      <p>Do you want to browse spoiler-free?</p>
+      <p>Select a topic to cover-up!</p>
 
-      <button type = "button">Hunger Games</button>
-      <button type = "button">Deactivate</button>
+      <!--<p class = "need-to-change">Lorem ipsum dolor sit amet</p>-->
+
+      <div id = "container">
+        <button id = "hunger" type = "button">Hunger Games</button>
+        <button id = "deactivate" type = "button">Deactivate Fig Leaf</button>
+      </div>
     </div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="content-script.js" type="text/javascript" charset="utf-8"></script>
 
+  </body>
+</html>
 
+    </body>
   </body>
 </html>
