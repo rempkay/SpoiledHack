@@ -24,6 +24,8 @@
 		  var startIndex = index;
 		  var endIndex = index+regularExpression.length;
 	  	}
+	  	
+	  // Now snap tag will be put around the substrings from index 'startIndex' to 'endIndex'	
 
   }
 }
