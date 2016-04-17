@@ -15,3 +15,6 @@
     "https://ajax.googleapis.com/"
   ]
 }
+
+
+//Put all names in the array, and when extension is activated, the functiongoes through the entire object/dictionary of terms, searches for it in html, then pulls it out.
