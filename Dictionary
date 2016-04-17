@@ -1,0 +1,4 @@
+myobject = {
+    "Hunger Games" : ["an", "array", "of", "words"]
+};
+myobject["Hunger Games"];
