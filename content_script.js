@@ -1,8 +1,10 @@
- function hideStuff(keywords){
+ function hideStuff(){
 
  	// for every element
 	// get innerHTML
 	// replace innerHTML with replaced version of html
+	
+        var keywords = ["an", "array", "of", "words"];
 
  	var body = document.querySelector("<body>");
  	var bodyHTML = body.innerHTML;
