@@ -1,0 +1,7 @@
+$('#hunger').on('click',function(){
+	$('p').addClass('redact');
+	});		
+
+$('#deactivate').on('click',function(){
+		$('p').removeClass('redact');
+	});	
